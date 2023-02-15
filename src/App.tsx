@@ -1,9 +1,6 @@
 import React from 'react';
+import UserApplication from './pages/UserApplication';
 
-function App() {
-  return (
-    <></>
-  );
-}
+const App = ():JSX.Element => <UserApplication/>;
 
 export default App;
