@@ -10,7 +10,7 @@ export const Checkbox = ({checked, label, onChange}: ICheckbox): JSX.Element => 
     return(
     <Container onClick={() => { onChange && onChange(!checked) }}>
         <Circle>
-            {checked && <ContentCheck/>}
+            {checked && <ContentCheck data-testid="checkbox-checked"/>}
         </Circle>
         <label>{label && label}</label>
     </Container>)

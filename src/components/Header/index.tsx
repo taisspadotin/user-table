@@ -31,6 +31,7 @@ export const Header = ({
             </ContentCheckbox>
             <Input
                 type="text"
+                data-testid="header-input"
                 value={disabled ? "" : searchValue}
                 disabled={disabled}
                 onChange={(e) => {
