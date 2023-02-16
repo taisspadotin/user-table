@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 import { Checkbox } from '../Checkbox';
 import { Container, Content, ContentCheckbox, ContentFlex, Input } from './styles';
 
